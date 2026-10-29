@@ -26,9 +26,9 @@ document_vector.shape
 
 
 #print("Docuemnt vector: ", document_vector)
-question = "What requirements exist for emergency doors?" #Test 1
+#question = "What requirements exist for emergency doors?" #Test 1
 #question = "Tell me about Zigbee network extenders" #Test 2
-#question = "Which devices improve my wireless smart home network?" #Test 3
+question = "Which devices improve my wireless smart home network?" #Test 3
 #question = "How often should I clean the coffee machine?" #Test 4
 
 question_vector = vectorizer.transform([question])
